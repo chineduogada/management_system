@@ -1,0 +1,79 @@
+{
+	"props": [
+		{
+			"id": "login",
+			"title": "login <i class='fa fa-lock'></i>",
+			"inputs": [
+				{
+					"name": "email",
+					"type": "email",
+					"label": "email..",
+					"icon": "fa-envelope",
+					"required": true
+				},
+				{
+					"name": "password",
+					"type": "password",
+					"label": "password...",
+					"icon": "fa-lock",
+					"required": true
+				}
+			]
+		},
+		{
+			"id": "register",
+			"title": "register <i class='fa fa-paper-plane'></i> <small class='color-success kilo'>for free</small>",
+			"inputs": [
+				{
+					"name": "first name",
+					"type": "text",
+					"label": "first name..",
+					"pattern": ".{2,}",
+					"icon": "fa-user",
+					"required": true,
+					"maxLength": 25
+				},
+				{
+					"name": "last name",
+					"type": "text",
+					"label": "last name..",
+					"pattern": ".{2,}",
+					"icon": "fa-user",
+					"required": false,
+					"maxLength": 25
+				},
+				{
+					"name": "username",
+					"type": "text",
+					"label": "username...",
+					"pattern": ".{8,}",
+					"icon": "fa-user",
+					"required": true
+				},
+				{
+					"name": "date of birth",
+					"type": "date",
+					"label": "date of birth...",
+					"icon": "fa-calendar",
+					"required": true
+				},
+				{
+					"name": "email",
+					"type": "email",
+					"label": "email..",
+					"pattern": "^\\w+@\\w+\\.\\w+$",
+					"icon": "fa-envelope",
+					"required": true
+				},
+				{
+					"name": "phone number",
+					"type": "number",
+					"label": "phone number...",
+					"pattern": ".{6,}",
+					"icon": "fa-phone",
+					"required": true
+				}
+			]
+		}
+	]
+}

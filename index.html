@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Management System</title>
+
+		<!-- font awesome -->
+		<link
+			rel="stylesheet"
+			href="./src/fontawesome-free-5.10.2-web/css/all.css"
+		/>
+		<link rel="stylesheet" href="./src/font-awesome/css/font-awesome.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+		<!-- end of font awesome -->
+
+		<!-- custom css -->
+		<link rel="stylesheet" href="./src/css/style.css" />
+		<!-- end of custom css -->
+	</head>
+	<body>
+		<!-- header -->
+		<header class="header">
+			<!-- navbar -->
+			<nav class="nav">
+				<!-- nav top -->
+				<div class="nav-top">
+					<h3 class="brand">
+						<a href="./index.html">Management System</a>
+					</h3>
+
+					<i class="fa fa-close bars-btn mega clickable"></i>
+				</div>
+				<!-- end of nav top -->
+
+				<!-- nav bottom -->
+				<div class="nav-bottom">
+					<ul class="nav-links">
+						<li><a href="#" class="home-btn">home</a></li>
+						<li><a href="#" class="about-btn">about</a></li>
+						<li><a href="#" class="course-btn">course</a></li>
+						<li>
+							<a name="register" href="#" class="form-btn modal-show-btn"
+								>register</a
+							>
+						</li>
+						<li class="screen-min">
+							<a name="login" href="#" class="form-btn modal-show-btn">login</a>
+						</li>
+						<li>
+							<a href="#" class="link-icon"><i class="fa fa-search"></i></a>
+						</li>
+						<li class="screen-668">
+							<a name="login" href="#" class="link-icon form-btn modal-show-btn"
+								><i class="fa fa-user clickable"></i
+							></a>
+						</li>
+					</ul>
+				</div>
+				<!-- end of nav bottom -->
+			</nav>
+			<!-- end of navbar -->
+		</header>
+		<!-- end of header -->
+
+		<!-- main -->
+		<main class="main">
+			<!-- overlay-loader -->
+			<div class="overlay">
+				<div class="overlay-loader">
+					<div class="c c-1"></div>
+					<div class="c c-2"></div>
+					<div class="c c-3"></div>
+				</div>
+			</div>
+			<!-- end of overlay-loader -->
+			<!-- modal -->
+			<div class="modal">
+				<div class="modal-top flex-justify-space-between">
+					<span class="modal-close-btn">
+						<i class="fa fa-close"></i>
+					</span>
+					<!-- <span
+							name="login"
+							class="screen-min modal-user-btn modal-show-btn form-btn"
+						>
+							<i class="fa fa-user"></i>
+						</span> -->
+					<div class="modal-flag hide">
+						oops! something is wrong
+					</div>
+				</div>
+
+				<div class="modal-content"></div>
+			</div>
+			<!--end of modal -->
+
+			<!-- profile -->
+			<div class="profile hide">
+				<div class="side-bar">
+					<div class="profile-avatar">
+						<img
+							src="./src/img/1.jpg"
+							alt="avatar"
+							width="70px"
+							height="70px"
+						/>
+					</div>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Home</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- end of profile -->
+		</main>
+		<!-- end of main -->
+		<script type="module" src="./src/js/app.js"></script>
+	</body>
+</html>
